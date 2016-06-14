@@ -1,0 +1,22 @@
+{
+  "name": "MeTruyenTranh",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "react-native run-android && adb reverse tcp:8081 tcp:8081",
+    "build-android": "cd android && ./gradlew assembleRelease"
+  },
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "native-base": "^0.4.0",
+    "react": "^15.0.2",
+    "react-native": "^0.26.3",
+    "react-native-carousel": "^0.8.0",
+    "react-native-parallax-scroll-view": "^0.18.2",
+    "react-native-parallax-view": "^2.0.4",
+    "react-native-progress": "^3.0.0",
+    "react-native-vector-icons": "^2.0.3",
+    "uuid": "^2.0.2"
+  }
+}
